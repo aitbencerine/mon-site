@@ -2,18 +2,17 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Projets – Portfolio de Cerine</title>
+    <title>Portfolio de Cerine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- BARRE PROMO -->
     <div class="top-promo">
-        <span>Projets de Cerine — Web · Data · Parcours ✨</span>
+        <span>Portfolio de Cerine AITBENAMARA</span>
     </div>
 
-    <!-- HEADER -->
+    <!-- HEADER / NAV -->
     <header class="site-header">
         <div class="logo">
             <span class="logo-main">Cerine.</span>
@@ -21,204 +20,93 @@
         </div>
 
         <nav class="main-nav">
-            <a href="index.html">Accueil</a>
-            <a href="projets.html" class="active">Projets</a>
+            <a href="index.html" class="active">Accueil</a>
+            <a href="projets.html">Projets</a>
             <a href="contact.html">Contact</a>
         </nav>
 
         <div class="header-icons">
-
             <a href="contact.html" class="icon-circle">✉️</a>
         </div>
     </header>
 
     <main>
 
-        <!-- HERO PROJETS -->
-        <section class="hero-projects">
-            <div class="hero-projects-inner">
-                <p class="hero-tagline">Mes réalisations</p>
-                <h1>Projets & <span>expériences</span></h1>
-                <p class="projects-intro">
-                    Un aperçu de ce que j’ai construit pendant ma licence :
-                    sites web, projets de programmation, travaux en data
-                    et éléments de mon parcours académique et professionnel.
+        <!-- HERO AVEC GROS VISUEL -->
+
+<section class="hero">
+    <div class="hero-content hero-full">
+        <p class="hero-tagline">AITBENAMARA CERINE</p>
+
+        <h1>Welcome to my<br><span>soft & tech world</span></h1>
+
+        <p class="hero-text">
+          Étudiante en L2 Mathématiques-Informatique, je me spécialise en cybersécurité — un domaine qui me passionne et dans lequel je construis activement ma carrière. Curieuse et rigoureuse, j'aime comprendre comment les systèmes peuvent être attaqués pour mieux les défendre.
+        </p>
+
+        <p class="hero-text">
+		 Mes bases en développement web et en analyse de données me donnent une vision globale des environnements que je cherche à protéger. À travers mes projets j'apprends, j'expérimente et je progresse chaque jour.
+		</p>
+          
+
+        <p class="hero-text">
+		 Explorez mon portfolio, découvrez mes projets, et n'hésitez pas à me contacter. Au plaisir d'échanger !
+		</p>
+
+        <div class="hero-buttons">
+            <a href="CVALT.pdf" class="btn primary" download>Télécharger mon CV</a>
+        </div>
+    </div>
+</section>
+
+ 
+        <section class="collections">
+            <h2>Découvrir mes univers</h2>
+            <p class="collections-sub">
+                Choisis une “collection” pour explorer mon travail et mon parcours.
+            </p>
+
+            <div class="collections-grid">
+                <a href="projets.html" class="collection-card">
+                    <div class="collection-image collection-web"></div>
+                    <div class="collection-info">
+                        <span class="collection-title">Projets Web</span>
+                        <span class="collection-tag">HTML · CSS · JavaScript · PHP</span>
+                    </div>
+                </a>
+
+                <a href="projets.html#data" class="collection-card">
+                    <div class="collection-image collection-data"></div>
+                    <div class="collection-info">
+                        <span class="collection-title">Data & Analyse</span>
+                        <span class="collection-tag">Python · Statistiques · Visualisation</span>
+                    </div>
+                </a>
+
+                <a href="projets.html#parcours" class="collection-card">
+                    <div class="collection-image collection-parcours"></div>
+                    <div class="collection-info">
+                        <span class="collection-title">Parcours & Compétences</span>
+                        <span class="collection-tag">Études · Expériences · Soft skills</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- MINI SECTION "ABOUT" -->
+        <section class="about-strip">
+            <div class="about-inner">
+                <h3>Merci pour votre visite</h3>
+                <p>
+				Si vous souhaitez en apprendre plus sur moi, ou me contacter, n'hésitez plus, vous pouvez explorer ce site ou télécharger mon CV ! :)
                 </p>
-            </div>
-        </section>
-
-        <!-- SECTION PROJETS WEB -->
-        <section class="projects-section" id="web">
-            <div class="section-header">
-                <span class="section-label">Collection</span>
-                <h2>Projets Web</h2>
-                <p>HTML, CSS, JavaScript, un peu de PHP… et beaucoup de rose.</p>
-            </div>
-
-            <div class="projects-grid">
-                <!-- Projet 1 -->
-                <article class="project-card">
-                     <div class="project-image project-img-1">
-							<img src="siteFF.png" alt="Aperçu du projet - Site de vente">
-					</div>
-                    <div class="project-body">
-                        <span class="project-pill">PHP/WEB</span>
-                        <h3>Site de Fast-Fashion</h3>
-                        <p>
-                            Site vitrine en HTML/CSS/JS avec pages produits,formulaire de contact et gestion basique des réservations.
-                        </p>
-                        <p class="project-techs">HTML · CSS · JavaScript</p>
-                        <div class="project-actions">
-                            <a href="site_AMIRA_CERINE.mp4" class="btn tiny primary" target="_blank">Voir la vidéo éxplicative</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Projet 2 -->
-                <article class="project-card">
-                    <div class="project-image project-img-2">
-						<img src="siteRM.png" alt="Aperçu du projet - Site de robes">
-					</div>
-                    <div class="project-body">
-                        <span class="project-pill">PHP / Web</span>
-                        <h3>Site de vente de robes de mariée</h3>
-                        <p>
-                            Mini site e-commerce avec pages produits, formulaire de contact
-                            et gestion basique des réservations.
-                        </p>
-                        <p class="project-techs">HTML · CSS · PHP</p>
-                        <div class="project-actions">
-                            <a href="Projet_Web_TD1_MELODY_CERINE.pdf" class="btn tiny primary">Voir le compte-rendu</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- SECTION DATA -->
-        <section class="projects-section" id="data">
-            <div class="section-header">
-                <span class="section-label">Collection</span>
-                <h2>Data & Analyse</h2>
-                <p>Premiers pas dans le monde de la data pendant ma licence.</p>
-            </div>
-
-            <div class="projects-grid">
-                <!-- Data 1 -->
-                <article class="project-card">
-                    <div class="project-image project-img-1">
-							<img src="laby.png" alt="Aperçu du projet">
-					</div>
-                    <div class="project-body">
-                        <span class="project-pill">Python</span>
-                        <h3>Projet de td: jeu labyrinthe</h3>
-                        <p>
-                             Réalisation d'un jeu labyrinthe en python en utilisant pygame
-                        </p>
-						<p class="project-techs">Python</p>
-                        <div class="project-actions">
-                            <a href="Compte rendu – Jeu Python Labyrinthe de la Princesse.pdf" class="btn tiny primary">Voir le compte-rendu</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Data 2 -->
-                <article class="project-card">
-                    <div class="project-image project-img-1">
-							<img src="app.png" alt="Aperçu du projet">
-					</div>
-                    <div class="project-body">
-                        <span class="project-pill">PYTHON</span>
-                        <h3>PROJET DE TD CS</h3>
-                        <p>
-                             solution de messagerie sécurisée conçue pour garantir la confidentialité des
-échanges grâce à des techniques de cryptographie modernes
-                        </p>
-                        <p class="project-techs">Python</p>
-                        <div class="project-actions">
-                            <a href="rapport_app.pdf" class="btn tiny primary">Voir le rapport </a>
-							<a href="vidapp.mp4" class="btn tiny primary" target="_blank">Voir la vidéo éxplicative</a>
-                        </div>
-                    </div>
-                </article>
-            </div>
-        </section>
-
-        <!-- SECTION PARCOURS & COMPÉTENCES -->
-        <section class="projects-section" id="parcours">
-            <div class="section-header">
-                <span class="section-label"></span>
-                <h2>Parcours & Compétences</h2>
-                <p>Ce qui m’a construite côté études, expériences et langues.</p>
-            </div>
-
-            <div class="parcours-grid">
-                <!-- Colonne parcours -->
-                <div class="parcours-column">
-                    <h3>Parcours scolaire</h3>
-                    <ul class="timeline">
-                        <li class="timeline-item">
-                            <span class="timeline-date">2023 – 2026</span>
-                            <h4>L1/L2 MIASHS(PARIS 1 PANTHEON SORBONNE)</h4>
-                            <p>Analyse, algèbre, programmation (Java, Python), développement web.</p>
-                        </li>
-                        <li class="timeline-item">
-                            <span class="timeline-date">2022-2023</span>
-                            <h4>Première année Ingenieur en Informatique(USTHB ALGER)</h4>
-                            <p>Découverte de la programmation(langage c,java), initiation aux statistiques.</p>
-                        </li>
-                    </ul>
-					<h3>Expériences</h3>
-					<ul class="timeline">
-						<li class="timeline-item">
-							<span class="timeline-date">JUILLET 2024</span>
-							<h4>Stage d'oservation en Informatique CyberSécurité-SONELGAZ</h4>
-							<p>Observation des politiques de sécurité,systèmes d'information et découverte des systèmes de sécurité informatique.</p>
-						</li>
-						<li class="timeline-item">
-							<span class="timeline-date">2025-2026</span>
-							<h4>Formatrice-McDonald's</h4>
-							<p>Encadrement et formation des nouveaux employés aux procédures et standards de l'enseigne.</p>
-						</li>
-						<li class="timeline-item">
-							<span class="timeline-date">2024-2025</span>
-							<h4>Équipière polyvalente – McDonald's</h4>
-							<p>Travail en équipe dans un environnement dynamique et exigeant.</p>
-						</li>
-                </div>
-
-                <!-- Colonne compétences -->
-                <div class="parcours-column">
-                    <h3>Compétences & langues</h3>
-                    <div class="skills-tags">
-                        <span>HTML / CSS</span>
-                        <span>JavaScript</span>
-                        <span>PHP</span>
-                        <span>Java</span>
-                        <span>Python</span>
-						<span>C</span>
-                    </div>
-                    <h4 class="skills-subtitle">Langues</h4>
-                    <div class="skills-tags">
-                        <span>Arabe(LANGUE MATERNELLE)</span>
-                        <span>FRANCAIS(LANGUE MATERNELLE)</span>
-                        <span>ANGLAIS(C2)</span>
-						<span>TURC(C2)</span>
-                    </div>
-                    <h4 class="skills-subtitle">Soft skills</h4>
-                    <div class="skills-tags">
-                        <span>Travail en équipe</span>
-                        <span>Autonomie</span>
-                        <span>Organisation</span>
-                    </div>
-                </div>
             </div>
         </section>
 
     </main>
 
     <footer class="site-footer">
-        <p>© 2025 · Projets de Cerine · Tous droits réservés</p>
+        <p>© 2025 · Portfolio de Cerine · Made with HTML, CSS & JavaScript</p>
     </footer>
 
     <script src="script.js"></script>
